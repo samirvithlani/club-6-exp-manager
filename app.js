@@ -8,12 +8,14 @@ app.use(express.json()); //middleware
 
 const categoryRoutes = require('./src/routes/CategoryRoutes');
 const expenseRoutes = require('./src/routes/ExpenseRoutes');
-
+const userRoutes = require('./src/routes/UserRoutes');
 
 //use routes
 
 app.use("/category", categoryRoutes);
 app.use("/expense", expenseRoutes);
+app.use("/user", userRoutes);
+
 //localhost:3000/category/
 
 

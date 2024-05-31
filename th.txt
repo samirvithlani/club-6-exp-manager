@@ -1,0 +1,8 @@
+AUTHETICATION :
+
+AUTHORIZATION :
+
+API open to all
+webpage : login : email password:
+
+token : 
